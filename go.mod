@@ -1,4 +1,4 @@
-module github.com/yangkaihello/go-sql-orm
+module github.com/yangkaihello/go-base
 
 require (
     github.com/yangkaihello/go-sql-orm latest
