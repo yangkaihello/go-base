@@ -31,3 +31,21 @@ func RandInt(length int) int {
 	}
 	return randInt
 }
+
+//验证0-9的字符集
+func ASCIINumber(ByteDec byte) bool {
+	if ByteDec >= 48 && ByteDec <= 57 {
+		return true
+	} else {
+		return false
+	}
+}
+
+//验证a-z A-Z的字符集
+func ASCIILetter(ByteDec byte) bool {
+	if (ByteDec >= 65 && ByteDec <= 90) || ( ByteDec >= 97 && ByteDec <= 122) {
+		return true
+	} else {
+		return false
+	}
+}
